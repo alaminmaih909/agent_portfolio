@@ -1,4 +1,46 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// app/layout.js
+import "./globals.css";
+/* import { Provider } from "react-redux";
+import { store } from "@/features/store/store"; */
+import { Roboto } from "next/font/google";
+import Navbar from "@/component/Navbar";
+import Footer from "@/component/Footer"
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
+
+export const metadata = {
+  title: "Real Estate Agent Portfolio",
+  description: "Professional Real Estate Portfolio Website",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={`${roboto.className} bg-gray-50 text-gray-800`}>
+        <Navbar />
+         <main className="min-h-screen">{children}</main> 
+         {/*  <Provider store={store}>{children}</Provider> */}
+        <Footer />
+      </body>
+    </html>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,3 +69,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+ */
+
