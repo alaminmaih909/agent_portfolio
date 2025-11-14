@@ -4,7 +4,7 @@ import "./globals.css";
 import { store } from "@/features/store/store"; */
 import { Roboto } from "next/font/google";
 import Navbar from "@/component/Navbar";
-import Footer from "@/component/Footer"
+import Footer from "@/component/Footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -19,26 +19,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body className={`${roboto.className} bg-gray-50 text-gray-800`}>
         <Navbar />
-         <main className="min-h-screen">{children}</main> 
-         {/*  <Provider store={store}>{children}</Provider> */}
+        <main className="min-h-screen">{children}</main>
+        {/*  <Provider store={store}>{children}</Provider> */}
         <Footer />
       </body>
     </html>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -70,4 +60,3 @@ export default function RootLayout({ children }) {
   );
 }
  */
-
