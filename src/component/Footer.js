@@ -79,7 +79,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 ">
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold text-white mb-3">Mizan Estate</h2>
+          <h2 className="text-2xl font-bold text-white mb-3">Real Estate</h2>
           <p className="text-gray-400 text-sm leading-relaxed">
             Premium Real Estate services helping you find your dream property.
           </p>
@@ -99,9 +99,9 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact Info</h3>
-          <p className="text-gray-400">📞 +966 501234567</p>
+          <p className="text-gray-400">📞 +1 123456789987</p>
           <p className="text-gray-400">📧 agent@example.com</p>
-          <p className="text-gray-400">📍 Riyadh, Saudi Arabia</p>
+          <p className="text-gray-400">📍 Florida, USA</p>
         </div>
 
         {/* Social Links */}
@@ -116,7 +116,7 @@ export default function Footer() {
       </div>
 
       <p className="text-center text-gray-500 text-sm mt-8">
-        © {new Date().getFullYear()} Mizan Estate — All Rights Reserved.
+        © {new Date().getFullYear()} Real Estate — All Rights Reserved.
       </p>
     </footer>
   );
