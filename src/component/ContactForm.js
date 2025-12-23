@@ -44,7 +44,7 @@ export default function ContactSection() {
 
           <div className="w-full h-64">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232711.67144876532!2d90.1787584!3d24.3074537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37560fbbdf39171d%3A0x4ab3fa742eb7098b!2sSakhipur%20Upazila!5e0!3m2!1sen!2sbd!4v1763117641282!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14536521.851964673!2d-94.43999334550294!3d27.189134431776683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C%20USA!5e0!3m2!1sen!2sbd!4v1766504495065!5m2!1sen!2sbd"
               className="w-full h-full rounded-xl border"
               loading="lazy"
             ></iframe>

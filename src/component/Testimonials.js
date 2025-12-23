@@ -7,19 +7,35 @@ import { motion } from "framer-motion";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Rafiq Ahmed",
+      name: "HJhon",
       review:
-        "Mizan bhai helped me find my dream apartment within just 2 weeks! Excellent service.",
+        "Alex helped me find my dream apartment within just 2 weeks! Excellent service.",
       gender: "male",
     },
     {
-      name: "Shila Begum",
+      name: "HJhon",
       review:
         "Very honest and professional agent. Highly recommended for property buying.",
       gender: "female",
     },
     {
-      name: "Mohammad Salman",
+      name: "HJhon",
+      review: "Great experience! He guided me through all paperwork smoothly. Thanks",
+      gender: "male",
+    },{
+      name: "HJhon",
+      review:
+        "Alex helped me find my dream apartment within just 2 weeks! Excellent service.",
+      gender: "male",
+    },
+    {
+      name: "HJhon",
+      review:
+        "Very honest and professional agent. Highly recommended for property buying.",
+      gender: "female",
+    },
+    {
+      name: "HJhon",
       review: "Great experience! He guided me through all paperwork smoothly. Thanks",
       gender: "male",
     },

@@ -68,10 +68,10 @@ export default function PropertyDetail() {
       {/* Contact */}
       <div className="bg-gray-50 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">Contact Agent</h3>
-        <p>📞 +966 501234567</p>
+        <p>📞 +1 501234567</p>
         <p>📧 agent@example.com</p>
         <a
-          href="https://wa.me/+8801735848428"
+          href="https://wa.me/+8801302531461"
           target="_blank"
           className="inline-block mt-3 px-4 py-2 bg-green-500 text-white rounded-md"
         >
